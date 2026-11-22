@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <title>Placeholder: portrait</title>
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9d3b4"/>
+      <stop offset="1" stop-color="#c9935e"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#pbg)"/>
+  <circle cx="200" cy="160" r="70" fill="#8a4a1f" opacity="0.55"/>
+  <path d="M70 400 q0 -150 130 -150 q130 0 130 150 z" fill="#8a4a1f" opacity="0.55"/>
+</svg>

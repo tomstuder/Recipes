@@ -1,9 +1,9 @@
 ---
 name: Tom Studer
-tagline: Home baker · sourdough, enriched doughs and everything in between
+tagline: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 # Photos: add them to images/home/ and put the file names here, e.g. images/home/loaves.jpg
-hero:
-portrait:
+hero: images/home/hero-placeholder.svg
+portrait: images/home/portrait-placeholder.svg
 # Recipes to feature on the home page, by folder name (up to 3; tested recipes fill any gaps)
 featured: [sourdough-banana-bread, sourdough-base]
 social:
@@ -12,7 +12,9 @@ social:
   facebook: https://www.facebook.com/tomstuder
 ---
 
-Welcome to my bake book: the recipes I keep coming back to, notes from every bake, and what I'm
-learning along the way.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+aliquip ex ea commodo consequat.
 
-Every recipe is written in baker's percentages so it scales cleanly, and every change is kept in git.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+pariatur. Excepteur sint occaecat cupidatat non proident.

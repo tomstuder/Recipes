@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <title>Placeholder: bread photo</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3e6d2"/>
+      <stop offset="1" stop-color="#d9b48c"/>
+    </linearGradient>
+    <linearGradient id="crust" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c47a3a"/>
+      <stop offset="1" stop-color="#8a4a1f"/>
+    </linearGradient>
+    <linearGradient id="crust2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d08a48"/>
+      <stop offset="1" stop-color="#9a5626"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <!-- board -->
+  <ellipse cx="400" cy="640" rx="330" ry="70" fill="#a86f3c" opacity="0.35"/>
+  <!-- boule -->
+  <ellipse cx="300" cy="560" rx="190" ry="140" fill="url(#crust)"/>
+  <path d="M190 520 q110 -70 220 0" stroke="#f3dfc0" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <path d="M210 580 q90 -50 180 0" stroke="#f3dfc0" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <!-- batard -->
+  <ellipse cx="540" cy="610" rx="200" ry="85" fill="url(#crust2)"/>
+  <path d="M420 600 l40 -25 M480 600 l40 -25 M540 600 l40 -25 M600 600 l40 -25" stroke="#f6e7cf" stroke-width="9" stroke-linecap="round" opacity="0.85"/>
+  <!-- wheat -->
+  <g transform="translate(600 230) rotate(25)" fill="none" stroke="#9a5626" stroke-width="6" stroke-linecap="round" opacity="0.55">
+    <path d="M0 0 v170"/>
+    <path d="M0 20 q-26 -6 -30 -34 q26 6 30 34 M0 20 q26 -6 30 -34 q-26 6 -30 34"/>
+    <path d="M0 60 q-26 -6 -30 -34 q26 6 30 34 M0 60 q26 -6 30 -34 q-26 6 -30 34"/>
+    <path d="M0 100 q-26 -6 -30 -34 q26 6 30 34 M0 100 q26 -6 30 -34 q-26 6 -30 34"/>
+  </g>
+  <text x="400" y="880" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="#7a4a24" opacity="0.7">Bread photo placeholder</text>
+</svg>
