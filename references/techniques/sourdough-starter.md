@@ -1,4 +1,11 @@
-# How to create a Sourdough Starter
+---
+title: How to Create a Sourdough Starter
+category: Techniques
+tags: [sourdough, starter]
+status: draft
+created: 2021-01-28
+---
 
-## Instructions
-+ ...
+# How to Create a Sourdough Starter
+
+_Not written yet._
