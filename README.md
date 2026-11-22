@@ -8,6 +8,8 @@ back here as commits. You can also edit any file by hand on GitHub or locally.
 
 ```
 config.yml                          categories for each section
+home.md                             home page: bio, photos, featured recipes, social links
+images/home/                        home page photos
 recipes/<slug>/recipe.md            one folder per recipe
 recipes/<slug>/bakes/<date>.md      bake log entries (coming soon)
 recipes/<slug>/images/              photos
