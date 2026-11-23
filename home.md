@@ -1,6 +1,6 @@
 ---
-name: Tom Studer
-tagline: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+name: Tom Studer (Home Baker)
+tagline: Alive, bubbly, and demanding. Enough about my starter.
 hero: images/home/2026-11-23-sourdough-boules-2026-11-23-02-s0az.jpg
 portrait: images/home/portrait-placeholder.svg
 featured: [sourdough-banana-bread, sourdough-base]
