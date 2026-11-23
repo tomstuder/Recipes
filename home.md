@@ -1,10 +1,8 @@
 ---
 name: Tom Studer
 tagline: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-# Photos: add them to images/home/ and put the file names here, e.g. images/home/loaves.jpg
-hero: images/home/hero-placeholder.svg
+hero: images/home/2026-11-23-sourdough-boules-2026-11-23-02-s0az.jpg
 portrait: images/home/portrait-placeholder.svg
-# Recipes to feature on the home page, by folder name (up to 3; tested recipes fill any gaps)
 featured: [sourdough-banana-bread, sourdough-base]
 social:
   instagram: https://www.instagram.com/tomstuder
