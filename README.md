@@ -15,7 +15,11 @@ recipes/<slug>/bakes/<date>.md      bake log entries, one file per bake
 recipes/<slug>/images/              photos
 diary/<date>-<slug>.md              diary posts
 diary/images/                       diary photos
-references/techniques/<slug>.md     how-tos and technique notes
+references/techniques/<slug>.md     how-tos and technique notes (photos in references/techniques/images/)
+references/glossary.yml             glossary terms
+references/library.yml              links, books, videos, articles and uploaded files
+references/files/                   uploaded files (PDFs etc.)
+references/conversions.yml          cup/tbsp/tsp weights for the converter
 ```
 
 `<slug>` is the title in lowercase with hyphens, e.g. `sourdough-banana-bread`.
@@ -109,6 +113,44 @@ related:                             # optional links shown at the end of the po
 ---
 
 Text in Markdown. Photos can go anywhere in the text: ![Crumb](images/2026-11-21-crumb.jpg)
+```
+
+## References formats
+
+**Techniques** (`references/techniques/<slug>.md`): a header with `title`, optional `summary`,
+`tags`, `status: draft` (leave it out once published), `created` and a cover `image`, then the
+write-up in Markdown.
+
+**Glossary** (`references/glossary.yml`), kept in A–Z order:
+
+```yaml
+terms:
+  - term: Autolyse
+    definition: Resting just the flour and water… (Markdown allowed)
+```
+
+**Library** (`references/library.yml`), shown in this order. `type` is website, video, book,
+article or file:
+
+```yaml
+items:
+  - type: book
+    title: Flour Water Salt Yeast
+    author: Ken Forkish
+  - type: website
+    title: Ingredient weight chart
+    url: https://www.kingarthurbaking.com/learn/ingredient-weight-chart
+    tags: [conversions]
+  - type: file
+    title: Starter feeding schedule
+    file: files/2026-11-23-starter-schedule.pdf   # relative to references/
+```
+
+**Conversions** (`references/conversions.yml`): the weight of one `cup`, `tbsp` or `tsp`:
+
+```yaml
+volume:
+  - { name: All-purpose flour, unit: cup, grams: 120 }
 ```
 
 ## License

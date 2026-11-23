@@ -1,0 +1,9 @@
+# Library shown on the References page: websites, videos, books, articles and uploaded files (in references/files/).
+
+items:
+  - type: website
+    title: Ingredient weight chart
+    url: https://www.kingarthurbaking.com/learn/ingredient-weight-chart
+    author: King Arthur Baking
+    note: Source for most of the cup weights in the converter.
+    tags: [conversions]

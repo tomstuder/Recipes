@@ -1,0 +1,25 @@
+# Volume-to-weight table for the References converter. Approximate; adjust to match your own measuring.
+# unit is cup, tbsp or tsp; grams is the weight of one of that unit.
+
+volume:
+  - { name: All-purpose flour, unit: cup, grams: 120 }
+  - { name: Bread flour, unit: cup, grams: 120 }
+  - { name: Whole wheat flour, unit: cup, grams: 113 }
+  - { name: Whole rye (pumpernickel) flour, unit: cup, grams: 106 }
+  - { name: Water, unit: cup, grams: 227 }
+  - { name: Milk, unit: cup, grams: 227 }
+  - { name: Greek yogurt, unit: cup, grams: 227 }
+  - { name: Sourdough starter (100% hydration), unit: cup, grams: 227 }
+  - { name: Butter, unit: cup, grams: 227 }
+  - { name: Vegetable oil, unit: cup, grams: 198 }
+  - { name: Granulated sugar, unit: cup, grams: 198 }
+  - { name: Brown sugar (packed), unit: cup, grams: 213 }
+  - { name: Confectioners' sugar, unit: cup, grams: 113 }
+  - { name: Honey, unit: tbsp, grams: 21 }
+  - { name: Cocoa powder, unit: cup, grams: 84 }
+  - { name: Rolled oats, unit: cup, grams: 89 }
+  - { name: Table salt, unit: tsp, grams: 6 }
+  - { name: Diamond Crystal kosher salt, unit: tsp, grams: 3 }
+  - { name: Instant yeast, unit: tsp, grams: 3 }
+  - { name: Baking powder, unit: tsp, grams: 4 }
+  - { name: Baking soda, unit: tsp, grams: 6 }
