@@ -1,1 +1,11 @@
+# Operating system files
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor swap and backup files
+*.sw?
+*~
+
+# Temporary lock files Office apps create while a document is open
+~$*
