@@ -10,9 +10,8 @@ social:
   facebook: https://www.facebook.com/tomstuder
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-aliquip ex ea commodo consequat.
+I've been baking at home for more than 15 years. It began with homebrewing: once fermentation had me hooked, sourdough was the obvious next step, and I've kept the same starter going ever since.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-pariatur. Excepteur sint occaecat cupidatat non proident.
+Sourdough is still what I bake most, but I'm just as interested in the history, the science and the process behind a loaf, and then, of course, how it tastes. Lately I'm branching out into more breads, noodles, pastries and cookies, and not all of them are sourdough.
+
+This is my notebook of recipes, bake logs and notes. If you're curious about starting sourdough, or already deep in it, pull up a chair. Questions are welcome, and so are your flat loaves.
