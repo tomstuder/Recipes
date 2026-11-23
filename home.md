@@ -1,5 +1,5 @@
 ---
-name: Tom Studer (Home Baker)
+name: In the Kitchen
 tagline: Alive, bubbly, and demanding. Enough about my starter.
 hero: images/home/2026-11-23-sourdough-boules-2026-11-23-02-s0az.jpg
 portrait: images/home/portrait-placeholder.svg
