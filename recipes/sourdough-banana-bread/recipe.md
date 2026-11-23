@@ -1,5 +1,5 @@
 ---
-title: Sourdough Banana Bread
+title: Sourdough Banana Bread (with Chocolate Chips)
 category: Quick breads & muffins
 tags: [banana, sourdough-discard, loaf-pan]
 status: tested
@@ -39,7 +39,7 @@ ingredients:
   - group: Add-ins (optional)
     note: Keep the total to ½–¾ cup.
     items:
-      - { name: Milk chocolate chips }
+      - { name: Milk chocolate chips, amount: 1/2 cup }
       - { name: Pecans or walnuts }
 ---
 
