@@ -13,7 +13,8 @@ images/home/                        home page photos
 recipes/<slug>/recipe.md            one folder per recipe
 recipes/<slug>/bakes/<date>.md      bake log entries, one file per bake
 recipes/<slug>/images/              photos
-diary/<date>-<slug>.md              diary posts (coming soon)
+diary/<date>-<slug>.md              diary posts
+diary/images/                       diary photos
 references/techniques/<slug>.md     how-tos and technique notes
 ```
 
@@ -90,6 +91,25 @@ Notes in Markdown: crumb, crust, flavor, what to try next time.
 **Quoting:** inside `{ … }` on one line, put text that contains a comma or a colon in double quotes
 (`"Shape, then into the fridge"`), and always quote times like `"08:00"`. The app does this
 automatically when it saves.
+
+## Diary format
+
+One file per post in `diary/`, named by date and title, e.g. `diary/2026-11-21-first-rye-loaf.md`.
+
+```yaml
+---
+title: First rye loaf
+date: 2026-11-21
+category: Experiment                 # one of the diary categories in config.yml
+tags: [rye, sourdough]
+image: images/2026-11-21-rye.jpg     # optional cover photo, relative to this file
+related:                             # optional links shown at the end of the post
+  - sourdough-base                   # a recipe (its folder name)
+  - sourdough-base/2026-11-20-higher-hydration   # a specific bake
+---
+
+Text in Markdown. Photos can go anywhere in the text: ![Crumb](images/2026-11-21-crumb.jpg)
+```
 
 ## License
 
