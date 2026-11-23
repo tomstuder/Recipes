@@ -4,8 +4,9 @@ category: Bread
 tags: [sourdough, levain, country-loaf]
 status: draft
 created: 2021-01-28
+image: images/2026-11-23-sourdough-boules-2026-11-23-02-pm5b.jpg
 yield: 2 loaves (~985 g dough each)
-# grams are the source of truth; pct is baker's % of the final-dough flour (1000 g = 100%).
+# grams are the source of truth; pct is baker's % of the flour (1000 g = 100%).
 ingredients:
   - group: Levain
     note: Build 4–8 hours ahead, until bubbly and roughly doubled.
