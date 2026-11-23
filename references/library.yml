@@ -7,3 +7,9 @@ items:
     author: King Arthur Baking
     note: Source for most of the cup weights in the converter.
     tags: [conversions]
+  - type: website
+    title: The Bread Code
+    url: https://www.the-bread-code.io/
+    author: TheBreadCode
+    note: Initial learning for tips and tricks with sourdough
+    tags: [inspiration, learning, sourdough]
