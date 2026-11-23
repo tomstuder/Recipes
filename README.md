@@ -1,7 +1,7 @@
 # Recipes
 
 My recipes, bake logs, diary and baking references. This repo is the content behind
-[Bake Book](https://tomstuder.github.io/baker-app/). The app reads these files and saves edits
+[Bake Book](https://kitchen.tomstuder.com/). The app reads these files and saves edits
 back here as commits. You can also edit any file by hand on GitHub or locally.
 
 ## Layout
