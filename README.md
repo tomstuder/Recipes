@@ -11,7 +11,7 @@ config.yml                          categories for each section
 home.md                             home page: bio, photos, featured recipes, social links
 images/home/                        home page photos
 recipes/<slug>/recipe.md            one folder per recipe
-recipes/<slug>/bakes/<date>.md      bake log entries (coming soon)
+recipes/<slug>/bakes/<date>.md      bake log entries, one file per bake
 recipes/<slug>/images/              photos
 diary/<date>-<slug>.md              diary posts (coming soon)
 references/techniques/<slug>.md     how-tos and technique notes
@@ -62,6 +62,34 @@ Ingredient fields:
 
 Everything after the header is regular Markdown. Typical sections are `## Method`,
 `## Baker's percentages`, `## Storage` and `## Notes`.
+
+## Bake format
+
+Each bake is its own file in the recipe's `bakes/` folder, named by date (plus the title, if any),
+e.g. `recipes/sourdough-base/bakes/2026-11-23-higher-hydration.md`.
+
+```yaml
+---
+date: 2026-11-23
+title: Higher hydration              # optional
+rating: 4                            # 1–5, optional
+batch: 2 loaves (900 g each)         # optional
+changes:                             # what was different from the recipe
+  - Water 75% → 78%
+temps: { kitchen: 72°F, dough: 78°F, oven: 475°F }   # any of these, optional
+timeline:
+  - { time: "08:00", step: Build levain }
+  - { time: "20:00", step: "Shape, then into the fridge" }
+photos:                              # relative to this file; photos live in the recipe's images/ folder
+  - ../images/2026-11-23-crumb.jpg
+---
+
+Notes in Markdown: crumb, crust, flavor, what to try next time.
+```
+
+**Quoting:** inside `{ … }` on one line, put text that contains a comma or a colon in double quotes
+(`"Shape, then into the fridge"`), and always quote times like `"08:00"`. The app does this
+automatically when it saves.
 
 ## License
 
