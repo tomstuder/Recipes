@@ -1,6 +1,6 @@
 # Recipes
 
-My recipes, bake logs, diary and baking references. This repo is the content behind
+My recipes, bake logs, journal and baking references. This repo is the content behind
 [Bake Book](https://kitchen.tomstuder.com/). The app reads these files and saves edits
 back here as commits. You can also edit any file by hand on GitHub or locally.
 
@@ -13,8 +13,8 @@ images/home/                        home page photos
 recipes/<slug>/recipe.md            one folder per recipe
 recipes/<slug>/bakes/<date>.md      bake log entries, one file per bake
 recipes/<slug>/images/              photos
-diary/<date>-<slug>.md              diary posts
-diary/images/                       diary photos
+diary/<date>-<slug>.md              journal posts (the folder is still called diary)
+diary/images/                       journal photos
 references/techniques/<slug>.md     how-tos and technique notes (photos in references/techniques/images/)
 references/glossary.yml             glossary terms
 references/library.yml              links, books, videos, articles and uploaded files
@@ -96,7 +96,7 @@ Notes in Markdown: crumb, crust, flavor, what to try next time.
 (`"Shape, then into the fridge"`), and always quote times like `"08:00"`. The app does this
 automatically when it saves.
 
-## Diary format
+## Journal post format
 
 One file per post in `diary/`, named by date and title, e.g. `diary/2026-11-21-first-rye-loaf.md`.
 
@@ -104,7 +104,7 @@ One file per post in `diary/`, named by date and title, e.g. `diary/2026-11-21-f
 ---
 title: First rye loaf
 date: 2026-11-21
-category: Experiment                 # one of the diary categories in config.yml
+category: Experiment                 # one of the journal categories in config.yml
 tags: [rye, sourdough]
 image: images/2026-11-21-rye.jpg     # optional cover photo, relative to this file
 related:                             # optional links shown at the end of the post
