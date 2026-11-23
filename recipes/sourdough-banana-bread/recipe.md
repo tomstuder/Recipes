@@ -4,6 +4,7 @@ category: Quick breads & muffins
 tags: [banana, sourdough-discard, loaf-pan]
 status: tested
 created: 2026-05-23
+image: images/2026-11-23-banana-bread-chocolate-chip-2026-05-24-1xz7.jpg
 yield: 2 loaves (8×4" pans)
 servings: 10–12 slices
 time:
